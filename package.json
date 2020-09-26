@@ -1,20 +1,22 @@
 {
-  "name": "homebridge-mi-air-purifier",
-  "version": "1.4.0",
-  "description": "Xiaomi Mi air purifier plugin for Homebridge.",
+  "name": "homebridge-winix-c545",
+  "version": "0.0.1",
+  "description": "Winix C545 purifier plugin for Homebridge.",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
-    "xiaomi",
-    "mi air purifier"
+    "winix",
+    "winix c545"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/seikan/homebridge-mi-air-purifier.git"
+    "url": "https://github.com/banzalik/homebridge-winix-c545.git"
   },
   "engines": {
     "node": ">=0.12.0",
-    "homebridge": ">=0.4.0",
-    "miio": ">=0.15.6"
+    "homebridge": ">=0.4.0"
+  },
+  "dependencies": {
+    "axios": "0.20.0"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "pluginAlias": "WinixC545",
+  "pluginType": "accessory",
+  "singular": false,
+  "headerDisplay": "Optional content to display above the plugin config. Supports markdown.",
+  "footerDisplay": "Optional content to display below the plugin config. Supports markdown.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true
+      },
+      "deviceId": {
+        "title": "Device ID",
+        "type": "string",
+        "required": true
+      },
+      "nameAirQuality": {
+        "title": "Name Air Quality",
+        "type": "string"
+      },
+      "showAirQuality": {
+        "title": "Show Air Quality",
+        "type": "boolean",
+        "default": false
+      },
+      "showPlasmawave": {
+        "title": "Show Plasmawave switcher",
+        "type": "boolean",
+        "default": false
+      }
+    }
+  },
+  "form": null,
+  "display": null
+}
