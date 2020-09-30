@@ -18,7 +18,7 @@ This is Winix C545 Air Purifier plugin for [Homebridge](https://github.com/nfari
 
 ### Installation
 
-1. In progress...
+https://github.com/banzalik/homebridge-winix-c545/wiki/How-to-get-devise-ID
 
 ### License
 
