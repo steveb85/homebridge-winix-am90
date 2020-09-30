@@ -16,7 +16,7 @@ This is Winix C545 Air Purifier plugin for [Homebridge](https://github.com/nfari
 
   
 
-### Installation
+### How to check device id?
 
 https://github.com/banzalik/homebridge-winix-c545/wiki/How-to-get-devise-ID
 
