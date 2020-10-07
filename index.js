@@ -14,8 +14,8 @@ function WinixC545(log, config) {
     this.name = config.name || 'Air Purifier';
     this.deviceId = config.deviceId;
 
-    this.apiServer = `https://us.api.winix-iot.com/common/control/devices/${this.deviceId}/A211`;
-    this.deviceStatusServer = `https://us.api.winix-iot.com/common/event/sttus/devices/${this.deviceId}`;
+    this.apiServer = `https://smart.us.gw.winixcorp.com:9903/homedevice/control/devices/${this.deviceId}`;
+    this.deviceStatusServer = `https://smart.us.gw.winixcorp.com:9903/homedevice/status/devices/${this.deviceId}`;
 
     this.showAirQuality = config.showAirQuality || false;
     this.nameAirQuality = config.nameAirQuality || 'Air Quality';
