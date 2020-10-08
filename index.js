@@ -15,7 +15,7 @@ function WinixC545(log, config) {
     this.deviceId = config.deviceId;
 
     this.apiServer = `https://smart.us.gw.winixcorp.com/homedevice/control/${this.deviceId}`;
-    this.deviceStatusServer = `https://smart.us.gw.winixcorp.com/homedevice/status/${this.deviceId}`;
+    this.deviceStatusServer = `https://smart.us.gw.winixcorp.com/homedevice/polling/${this.deviceId}`;
 
     this.showAirQuality = config.showAirQuality || false;
     this.nameAirQuality = config.nameAirQuality || 'Air Quality';
