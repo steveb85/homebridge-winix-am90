@@ -1,7 +1,7 @@
 {
   "name": "homebridge-winix-c545",
   "version": "0.0.1",
-  "description": "Winix C545 purifier plugin for Homebridge.",
+  "description": "Winix am90 purifier plugin for Homebridge.",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
