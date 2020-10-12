@@ -6,7 +6,7 @@ module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
 
-    homebridge.registerAccessory('homebridge-winix-c545', 'WinixC545', WinixC545);
+    homebridge.registerAccessory('homebridge-winix-c545', 'WinixC545', 'WinixC545', 'WinixAM90');
 }
 
 function WinixC545(log, config) {
@@ -66,7 +66,7 @@ function WinixC545(log, config) {
 
     this.serviceInfo
         .setCharacteristic(Characteristic.Manufacturer, 'Winix')
-        .setCharacteristic(Characteristic.Model, 'C545');
+        .setCharacteristic(Characteristic.Model, 'AM90');
 
     this.services.push(this.service);
     this.services.push(this.serviceInfo);
