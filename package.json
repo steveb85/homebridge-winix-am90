@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/steveb85/homebridge-winix-c545.git"
+    "url": "https://github.com/steveb85/homebridge-winix-am90.git"
   },
   "engines": {
     "node": ">=0.12.0",
