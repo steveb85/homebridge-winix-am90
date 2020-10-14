@@ -13,9 +13,12 @@ function WinixC545(log, config) {
     this.log = log;
     this.name = config.name || 'Air Purifier';
     this.deviceId = config.deviceId;
+    this.user = config.user;
+    this.password = config.password;
 
     this.apiServer = `https://smart.us.gw.winixcorp.com/homedevice/control/${this.deviceId}`;
     this.deviceStatusServer = `https://smart.us.gw.winixcorp.com/homedevice/polling/${this.deviceId}`;
+    this.loginServer = `https://smart.us.gw.winixcorp.com/login';
 
     this.showAirQuality = config.showAirQuality || false;
     this.nameAirQuality = config.nameAirQuality || 'Air Quality';
