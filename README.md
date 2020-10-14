@@ -1,6 +1,6 @@
-# homebridge-winix-c545
+# homebridge-winix-am90
 
-This is Winix C545 Air Purifier plugin for [Homebridge](https://github.com/nfarina/homebridge). This plugin will add the air purifier and **Air Quality Sensor** to your Home app. This version is working with iOS 11 to add the device as air purifier in Home app.
+This is Winix AM90 Air Purifier plugin for [Homebridge](https://github.com/nfarina/homebridge). This plugin will add the air purifier and **Air Quality Sensor** to your Home app. This version is working with iOS 11 to add the device as air purifier in Home app.
 
 ### Features
 
